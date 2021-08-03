@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Youtube (clone)</title>
+   <link rel="stylesheet" href="./css/reset.css">
+   <link rel="stylesheet" href="./css/style.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet">
+
+   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+   <header>
+      <div class="logo">
+         <img src="img/youtube.png" alt="logo youtube">
+      </div>
+
+      <div class="search">
+         <input type="search" name="search" id="search" placeholder="Pesquisar">
+      </div>
+
+      <div class="sign-in">
+         <a href="#" class="button">
+            <svg>
+               <g>
+                  <path
+                     d="M12,0 C18.62375,0 24,5.37625 24,12 C24,18.62375 18.62375,24 12,24 C5.37625,24 0,18.62375 0,12 C0,5.37625 5.37625,0 12,0 Z M12,10.63625 C13.66,10.63625 15,9.29625 15,7.63625 C15,5.97625 13.66,4.63625 12,4.63625 C10.34,4.63625 9,5.97625 9,7.63625 C9,9.29625 10.34,10.63625 12,10.63625 Z M12,12.40875 C8.33375,12.40875 5.455,14.18125 5.455,15.8175 C6.84125,17.95 9.26875,19.3625 12,19.3625 C14.73125,19.3625 17.15875,17.95 18.545,15.8175 C18.545,14.18125 15.66625,12.40875 12,12.40875 Z">
+                  </path>
+               </g>
+            </svg>
+            <span>Fazer login</span>
+         </a>
+      </div>
+   </header>
+
+   <main>
+      <section class="video-player">
+         <iframe src="https://www.youtube.com/embed/sco9BUIqwTg" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+      </section>
+
+      <section class="video-info">
+         <h1>Trailer Honesto - Prometheus</h1>
+         <div class="views">500.000 visualizações</div>
+      </section>
+
+      <section class="actions">
+         <div class="action">
+            <svg>
+               <g>
+                  <path
+                     d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z">
+                  </path>
+               </g>
+            </svg>
+            <span>500 mil</span>
+         </div>
+
+         <div class="action">
+            <svg>
+               <g>
+                  <path
+                     d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z">
+                  </path>
+               </g>
+            </svg>
+            <span>0</span>
+         </div>
+
+         <div class="action">
+            <svg>
+               <g>
+                  <path d="M14 9V3L22 12L14 21V15C8.44 15 4.78 17.03 2 21C3.11 15.33 6.22 10.13 14 9Z"
+                     class="style-scope yt-icon"></path>
+               </g>
+            </svg>
+            <span>compartilhar</span>
+         </div>
+
+         <div class="action">
+            <svg>
+               <g>
+                  <path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"
+                     class="style-scope yt-icon"></path>
+               </g>
+            </svg>
+            <span>salvar</span>
+         </div>
+
+         <div class="action">
+            <svg>
+               <g>
+                  <circle cx="5" cy="12" r="2"></circle>
+                  <circle cx="12" cy="12" r="2" class="style-scope yt-icon"></circle>
+                  <circle cx="19" cy="12" r="2"></circle>
+               </g>
+            </svg>
+         </div>
+
+      </section>
+
+      <section class="channel">
+         <img src="./img/channel-icon.jpg" alt="Imagem do canal">
+
+         <div class="channel-info">
+            <h4 class="channel-name">Paulo Santos</h4>
+            <p class="channel-subscribes">13 mil inscritos</p>
+            <p class="channel-description">Apaixonado por tecnologias, mora em Contagem, Minas Gerais e ama um
+               cafezinho!</p>
+         </div>
+      </section>
+
+      <section class="subscribe">
+         <a href="#" class="button">Inscrever-se</a>
+      </section>
+
+      <section class="ad">📌 Anuncie aqui!</section>
+
+      <section class="up-next">
+         <a href="https://www.youtube.com/watch?v=0XQ3wO2qh-s">
+            <img src="https://img.youtube.com/vi/0XQ3wO2qh-s/mqdefault.jpg" alt="Thumbnail">
+            <div class="video-details">
+               <h4>Alien: Covenant | Trailer Oficial | Dublado HD</h4>
+               <p>20th Century Studios Brasil</p>
+            </div>
+         </a>
+         <a href="https://www.youtube.com/watch?v=zgdDOLMSsVs">
+            <img src="https://img.youtube.com/vi/zgdDOLMSsVs/mqdefault.jpg" alt="Thumbnail">
+            <div class="video-details">
+               <h4>Eternos | Teaser Trailer | Dublado</h4>
+               <p>Marvel Studios</p>
+            </div>
+         </a>
+         <a href="https://www.youtube.com/watch?v=qZlZIoL7TZQ">
+            <img src="https://img.youtube.com/vi/qZlZIoL7TZQ/mqdefault.jpg" alt="Thumbnail">
+            <div class="video-details">
+               <h4>Venom 2 Trailer Dublado</h4>
+               <p>Marvel Studios</p>
+            </div>
+         </a>
+         <a href="https://www.youtube.com/watch?v=uYUa4SN29RM">
+            <img src="https://img.youtube.com/vi/uYUa4SN29RM/mqdefault.jpg" alt="Thumbnail">
+            <div class="video-details">
+               <h4>Logan Return 2021 Trailer</h4>
+               <p>Marvel Studios</p>
+            </div>
+         </a>
+         <a href="https://www.youtube.com/watch?v=8LuxOYIpu-I">
+            <img src="https://img.youtube.com/vi/8LuxOYIpu-I/mqdefault.jpg" alt="Thumbnail">
+            <div class="video-details">
+               <h4>Trainspotting (1996) Official Trailer </h4>
+               <p>Movieclips Classic</p>
+            </div>
+         </a>
+         <a href="https://www.youtube.com/watch?v=z7_CW4Rjt-0">
+            <img src="https://img.youtube.com/vi/z7_CW4Rjt-0/mqdefault.jpg" alt="Thumbnail">
+            <div class="video-details">
+               <h4>Westworld | Trailer #2</h4>
+               <p>HBO Brasil</p>
+            </div>
+         </a>
+      </section>
+   </main>
+</body>
+
+</html>
